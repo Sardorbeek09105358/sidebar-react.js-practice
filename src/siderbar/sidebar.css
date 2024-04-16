@@ -1,0 +1,59 @@
+*{
+    list-style: none;
+}
+
+.side{
+    width: 15% !important;
+    position: fixed;
+}
+
+.sidebar{
+    width: 300px;
+    padding-top: 12px;
+    height: 100vh;
+    background-color: #000016;
+}
+
+.button{
+    width: 90%;
+    display: inline-block;
+    border: none;
+    margin: 10px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    color: black;
+}
+
+.button:hover{
+    background-color: crimson;
+    color: white;
+    transition: 0.5s all;
+}
+
+.active_btn{
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
